@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title> 小研的个人网页 </title> 
+<style>
+
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+body
+{
+	background-color:#FCF4DD;
+
+}
+.center {
+    text-align: center;
+    border: 0px solid #FcF4dd;
+}
+a.one:link {color:#ff0000;}
+a.one:visited {color:#2E8B57;}
+a.one:hover {color:#ff00ff;}
+a {text-decoration:none;}
+
+/* 面板样式 */
+.accordion {
+  background-color: #1E90FF;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 16px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+ 
+/* 悬停样式 */
+.active, .accordion:hover {
+  background-color: #00dfff;
+}
+ 
+/* 手风琴面板样式 */
+.panel {
+  padding: 0 18px;
+  background-color: 	#FFEBEB;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+/*  +、- 标志 */
+.accordion:after {
+  content: '\002B';  /* Unicode 字符 + 号 */
+  color: #000000;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+ 
+.active:after { 
+  content: "\2212";  /* Unicode 字符 - 号 */
+}
+</style>
+</head>
+<body>
+<header>
+<img src="https://pic.imgdb.cn/item/639a7d41b1fccdcd36c40779.png" width="258">
+</header><br>
+<img src="https://pic.imgdb.cn/item/639a7faeb1fccdcd36c6bbe6.jpg" width="130" alt="头像">
+<div class="center">
+<h1 style="color:#4169e1">小研</h1></div>
+<p>
+昵称:小研<br>
+性别:⚤   <button type="button" onclick="alert('PS:据说TA可以根据需求自由安装或拆除配件（来自某全求鼎尖黑客的留言）')">我只是一个按钮</button><br>
+生于:2005年<br>
+别名:小研Y、小研Z<br>
+故乡:河北省<br>
+联系方式<br>
+邮箱/QQ:<i>705185089@qq.com</i>（无事勿扰，谢谢）
+</p>
+<div class="center">
+<h2 style="color:#4169e1">个人简介</h2></div>
+<p>小研，在2016年第一次接触Minecraft，2017年入坑网易我的世界，2020年12月成为一位Minecraft相关视频创作者（快手&哔哩哔哩），2021年开始尝试Minecraft基岩版（绝对不是因为被防沉迷制裁了，绝对不是[狗头]），2022年进入苦力怕论坛<a class="one" href="https://klpbbs.com/?fromuid=288954" target="_blank">（点我跳转）</a>，之后开始尝试创作一些Minecraft相关的其他内容，例如游戏地图之类的。</p>
+<p>在之后的日子里，我接触到了一些关于材质包制作的东东，在仔细了解后发现我之前认为很难学的纹理包制作其实并不复杂，于是我便开始自学Minecraft纹理包的制作方法（后来还真让我研究出来了，下载方法见下文）</p>
+<p><b>总结:</b>我的世界五年小萌新一个（又萌又新），擅长生存，懂建筑、红石，会制作简单的材质包，会编写一些简单网页（比如你现在正在访问的这个页面就是由我编写的）</p>
+<div class="center">
+<h2 style="color:#4169e1">创作相关</h2></div>
+<h3>视频</h3>
+<button class="accordion">快手（点击图片跳转）</button>
+<div class="panel">
+ <a href="https://v.kuaishou.com/tWnnAX "style="text-decoration:none;">
+ <img src="https://pic.imgdb.cn/item/639c2136b1fccdcd362db2cd.jpg" width="130">
+</a>
+</div>
+<button class="accordion">哔哩哔哩（点击图片跳转）</button>
+<div class="panel">
+<a href="https://b23.tv/BFT1ITA"style="text-decoration:none;">
+  <img src="https://pic.imgdb.cn/item/639c2123b1fccdcd362d9b83.png" width="130" >
+</a>
+</div>
+<button class="accordion">查看更多平台！</button>
+<div class="panel">
+<h2 style="color:red">看什么看！没了！！！</h2>
+<img src="https://pic.imgdb.cn/item/639d6bf3b1fccdcd360cf8e1.jpg"><br>
+</div>
+<h3>自制的优秀教程</h3>
+<button class="accordion">教你做出顶级烟花!</button>
+<div class="panel">
+<h3>教你如何做出顶级烟花!</h3>
+<img src="https://pic.imgdb.cn/item/63bfcd16be43e0d30edd74f2.jpg">
+<p>本教程详细的讲述了Minecraft中各种烟花的制作方法，包括各种高级的烟花制作方法，非常适合观赏使用，适合0基础小白阅读。</p>
+<a class="one"  href="https://klpbbs.com/thread-79730-1-1.html">点击此处前往klpbbs查看</a>
+
+</div>
+<button class="accordion">我的世界从0开始学炼药</button>
+<div class="panel">
+<h3>我的世界从0开始学炼药</h3>
+<img src="https://pic.imgdb.cn/item/639c29b0b1fccdcd363b61d7.jpg">
+<p>此教程详细地讲解了Minecraft中有关药水以及状态效果的知识，适合0基础小萌新阅读，仔细阅读完本教程后即可基本掌握药水有关的知识，（要是你读完还是没有学会的话我就吃了你！！！）</p>
+<a class="one"  href="https://klpbbs.com/thread-60984-1-1.html">点击此处前往klpbbs查看此教程</a>
+</div>
+<button class="accordion">建筑党最爱——结构方块</button>
+<div class="panel">
+<h3>建筑党最爱——结构方块</h3>
+<img src="https://pic.imgdb.cn/item/639d79bfb1fccdcd362a9b1b.jpg">
+<p>此教程将从0教会你如何使用结构方块，是一篇非常适合建筑党阅读的教程，教程主要讲解了如何通过结构方块在存档内复制已有的结构，是建筑党的偷懒神器！！！</p>
+<a  class="one" href="https://klpbbs.com/thread-40693-1-1.html">点击此处前往klpbbs查看此教程</a>
+</div>
+<button class="accordion">查看更多教程！</button>
+<div class="panel">
+<h2 style="color:red">看什么看！没了！！！</h2>
+<img src="https://pic.imgdb.cn/item/639d6bf3b1fccdcd360cf8e1.jpg"><br>
+</div>
+<h3>自制地图&材质</h3>
+<button class="accordion">（地图）石家庄市育才小学</button>
+<div class="panel">
+<h3>石家庄市育才小学</h3>
+<img src="https://pic.imgdb.cn/item/639e8db3b1fccdcd36d725a5.jpg">
+<p>【BE地图2022年暑假活动作品】此地图为建筑观赏性地图，并没有什么实际用途 地图粗略地还原了我上过的小学的样子，喜欢的童鞋们可以去下载下来看一看↓↓↓</p>
+<a  class="one" href="https://klpbbs.com/thread-51490-1-1.html">点击此处前往klpbbs下载地图</a><br>
+<a  class="one" href="https://pan.baidu.com/s/1ppHA3M7SG4Zir815wfuFfg?pwd=88x5">点击此处前往「百度网盘」直接下载（提取码:88x5）</a>
+<p>百度网盘下载备用链接:https://pan.baidu.com/s/1ppHA3M7SG4Zir815wfuFfg?pwd=88x5 （提取码:88x5）</p><br>
+</div>
+<button class="accordion">（地图）古风亭坛</button>
+<div class="panel">
+<h3>古风亭坛</h3>
+<img src="https://pic.imgdb.cn/item/639e93abb1fccdcd36df324d.jpg">
+<p>自制早期建筑观赏性地图，除了建筑主体以外没有任何其他的东西，仿古建筑一个，喜欢的可以下载下来看一看</p>
+<a  class="one" href="https://pan.baidu.com/s/1J78iBLLFp0HMwrT3CNorBw?pwd=88x5">点击此处前往「百度网盘」直接下载（提取码:88x5）</a>
+<p>百度网盘下载备用链接:https://pan.baidu.com/s/1J78iBLLFp0HMwrT3CNorBw?pwd=88x5 （提取码:88x5）</p><br>
+</div>
+<button class="accordion">（材质）喵喵壁画包</button>
+<div class="panel">
+<h3>【1.19.x】喵喵壁画包</h3>
+<img src="https://pic.imgdb.cn/item/639ea0f6b1fccdcd36f5d326.jpg">
+<img src="https://pic.imgdb.cn/item/639ea113b1fccdcd36f603e7.jpg">
+<p>此包将原版游戏中的画替换为可爱的猫猫们，其中主要包含了猫羽雫、nacho等一共22张贴图。</p>
+<a class="one" href="https://url76.ctfile.com/f/38728176-749698332-2a8f2a?p=3259">点击此处前往城通网盘下载 （访问密码：3259）</a>
+<p>城通网盘下载备用链接 https://url76.ctfile.com/f/38728176-749698332-2a8f2a?p=3259 （访问密码：3259）</p><HR>
+<p><b>注</b>:此材质包为原创作品，未经允许禁止转载！（材质包中贴图来源于网络，侵立删）</p><br>
+</div>
+<button class="accordion">查看更多作品！</button>
+<div class="panel">
+<h2 style="color:red">看什么看！没了！！！</h2>
+<img src="https://pic.imgdb.cn/item/639d6bf3b1fccdcd360cf8e1.jpg"><br>
+</div>
+<h3>正在进行的项目</h3>
+<button class="accordion">裕彤市</button>
+<div class="panel">
+<h2>裕彤市</h2>
+<p>裕彤市是一座虚拟城市，她是一座现代化的中型城市，现在我们已经开始建设他了，相信在不久的将来，裕彤市一期就可以与大家见面了！</p><br>
+<a clase="one" href="https://afdian.net/a/xy9375">
+<div class="center">
+<h1 style="color:#ffa500">用爱发电!!!</h1></div>
+</div>
+<button class="accordion">查看更多正在进行的项目！</button>
+<div class="panel">
+<h2 style="color:red">看什么看！没了！！！</h2>
+<img src="https://pic.imgdb.cn/item/639d6bf3b1fccdcd360cf8e1.jpg"><br>
+</div><br><hr>
+<h2>你知道吗？Do you knwo?</h2>
+<p>●其实早在2019年我就发布了我的第一个地图作品到多玩我的世界盒子，但由于一些懂得都懂的原因现在已经找不到了。</p>
+<p>●这个网页只用了两坤天就写好了<button type="button" onclick="alert('PS:1坤＝2.5')">坤</button></p>
+<p>●其实您现在正在访问的这个页面是我的第二代个人网页，由于第一代HTML文档实在是灰常垃姬（101行代码，彬彬看了都说逊）再加上之前使用的图床关闭，所以便有了这个页面（230行左右）</p>
+<p>●敬请期待，略~略~略~</p>
+<a  class="one" href="https://b23.tv/UDwksDX"><p>●                </p></a>
+<br><br><hr><br>
+<h3>为了庆祝<del>新一代网页完成</del>2023年的到来</h3>
+<p>给大家分享一些非常阔爱的东东</p>
+<button class="accordion">优良传统！</button>
+<div class="panel">
+<img src="https://pic.imgdb.cn/item/63afea692bbf0e7994c4ab8a.png">
+<img src="https://pic.imgdb.cn/item/639ed631b1fccdcd36615885.png">
+<img src="https://pic.imgdb.cn/item/639ed65bb1fccdcd366194e0.png">
+<img src="https://pic.imgdb.cn/item/639ed676b1fccdcd3661b8f7.png">
+<img src="https://pic.imgdb.cn/item/639ed68bb1fccdcd36620c96.png">
+<img src="https://pic.imgdb.cn/item/639ed69db1fccdcd36626373.png">
+<img src="https://pic.imgdb.cn/item/639ed6c1b1fccdcd3663004a.png">
+</div>
+<button class="accordion">查看更多优良传统！！！</button>
+<div class="panel">
+<h2 style="color:red">看什么看！你个大hentai！！！</h2>
+<img src="https://pic.imgdb.cn/item/639d6bf3b1fccdcd360cf8e1.jpg"><br>
+<a  class="one" href="https://xiaoyanxy{$rthSuffix}/ylct.html">查看更多精选（R-18）优良传统!!!</a>
+</div><br><hr>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+<footer>
+<p></p>
+<p>网页托管:<a class="one" href="https://host.retiehe.com/">热铁盒静态网页托管</a></p>
+<p>图片URL：<a class="one" href="https://www.superbed.cn/signup?from_id=65858">聚合图床</a></p>
+<p>网页编写教程:<a class="one" href="https://www.runoob.com/">菜鸟教程</a></p>
+<p>部分图片源于网络，侵立删</p>
+</footer>
+</body>
+</HTML>
